@@ -1,0 +1,7 @@
+[package]
+name = "factory-core"
+version.workspace = true
+edition.workspace = true
+description = "Игровая логика Factory — не зависит от интерфейса"
+
+[dependencies]

@@ -1,0 +1,10 @@
+[workspace]
+resolver = "3"
+members = ["crates/factory-core", "crates/factory-tui"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+factory-core = { path = "crates/factory-core" }

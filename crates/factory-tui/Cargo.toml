@@ -1,0 +1,10 @@
+[package]
+name = "factory-tui"
+version.workspace = true
+edition.workspace = true
+description = "Терминальный интерфейс игры Factory"
+
+[dependencies]
+factory-core.workspace = true
+ratatui = "0.30"
+crossterm = "0.29"
