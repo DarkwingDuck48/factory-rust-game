@@ -1,0 +1,40 @@
+# UI string translations (active language: en)
+# One file per language; duplicate keys in a table are a TOML parse error
+
+[resource]
+wood = "Wood"
+stone = "Stone"
+sand = "Sand"
+coal = "Coal"
+quartz = "Quartz"
+iron = "Iron"
+copper = "Copper"
+lithium = "Lithium"
+battery = "Battery"
+chip = "Microchip"
+glass = "Glass"
+ev = "Electric car"
+
+[building]
+sawmill = "Sawmill"
+quarry = "Quarry"
+sand_quarry = "Sand quarry"
+coal_plant = "Coal plant"
+mine = "Coal mine"
+iron_mine = "Iron mine"
+copper_mine = "Copper mine"
+lithium_mine = "Lithium mine"
+factory = "Assembly plant"
+
+[role]
+battery_producer = "Battery producer"
+chip_producer = "Chip producer"
+glass_producer = "Glassmaker"
+
+[category]
+material = "Material"
+metal = "Metal"
+component = "Component"
+premium = "Premium goods"
+extraction = "Extraction"
+production = "Production"

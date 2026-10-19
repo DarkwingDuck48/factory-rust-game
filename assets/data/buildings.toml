@@ -1,0 +1,29 @@
+# Каталог зданий.
+# code по умолчанию = building.<id>; имена — в lang/ru.toml.
+
+[sawmill]               # добыча дерева (Т0)
+category = "extraction"
+
+[quarry]                # добыча камня (Т0)
+category = "extraction"
+
+[sand_quarry]           # добыча песка (Т0)
+category = "extraction"
+
+[coal_plant]            # переработка: дерево → уголь (Т1)
+category = "production"
+
+[mine]                  # угольная шахта (Т2, исследование)
+category = "extraction"
+
+[iron_mine]             # железо (Т2, исследование)
+category = "extraction"
+
+[copper_mine]           # медь (Т2, исследование)
+category = "extraction"
+
+[lithium_mine]          # литий (Т2, исследование)
+category = "extraction"
+
+[factory]               # переработка, сборка премиум-товаров
+category = "production"

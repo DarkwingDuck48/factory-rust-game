@@ -1,0 +1,40 @@
+# Переводы строк интерфейса (активный язык: ru)
+# По одному файлу на язык; дубликат ключа в таблице — ошибка парсера TOML
+
+[resource]
+wood = "Дерево"
+stone = "Камень"
+sand = "Песок"
+coal = "Уголь"
+quartz = "Кварц"
+iron = "Железо"
+copper = "Медь"
+lithium = "Литий"
+battery = "Аккумулятор"
+chip = "Микросхема"
+glass = "Стекло"
+ev = "Электромобиль"
+
+[building]
+sawmill = "Лесопилка"
+quarry = "Карьер"
+sand_quarry = "Песчаный карьер"
+coal_plant = "Угольный завод"
+mine = "Угольная шахта"
+iron_mine = "Железный рудник"
+copper_mine = "Медный рудник"
+lithium_mine = "Литиевый рудник"
+factory = "Сборочный завод"
+
+[role]
+battery_producer = "Производитель аккумуляторов"
+chip_producer = "Производитель микросхем"
+glass_producer = "Стекольщик"
+
+[category]
+material = "Материал"
+metal = "Металл"
+component = "Компонент"
+premium = "Премиум-товар"
+extraction = "Добыча"
+production = "Переработка"

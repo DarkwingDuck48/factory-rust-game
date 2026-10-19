@@ -1,0 +1,26 @@
+# Переработка: inputs — именованная таблица (ключ = id ресурса),
+# тир не указывается — вычисляется автоматически (макс(тиры входов) + 1).
+
+[coal_from_wood]        # coal: макс(0) + 1 = Т1
+building = "coal_plant"
+time = 5.0
+inputs  = { wood = 2 }
+outputs = { coal = 1 }
+
+[quartz_from_sand]      # quartz: макс(0) + 1 = Т1
+building = "factory"
+time = 4.0
+inputs  = { sand = 2 }
+outputs = { quartz = 1 }
+
+[chip_from_quartz]      # chip: макс(Т1, Т2) + 1 = Т3
+building = "factory"
+time = 8.0
+inputs  = { quartz = 1, copper = 1 }
+outputs = { chip = 1 }
+
+[ev_from_parts]         # ev: макс(Т3, ...) + 1 = Т4
+building = "factory"
+time = 20.0
+inputs  = { battery = 1, iron = 1, copper = 1 }
+outputs = { ev = 1 }

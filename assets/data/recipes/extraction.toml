@@ -1,0 +1,48 @@
+# Добывающие рецепты: входов нет, тир обязателен.
+# tier = 0 — доступно с начала игры; tier = 2 + research — после исследования.
+
+[extract_wood]
+building = "sawmill"
+time = 3.0
+tier = 0
+outputs = { wood = 1 }
+
+[extract_stone]
+building = "quarry"
+time = 3.0
+tier = 0
+outputs = { stone = 1 }
+
+[extract_sand]
+building = "sand_quarry"
+time = 3.0
+tier = 0
+outputs = { sand = 1 }
+
+[extract_coal]              # уголь Т2 — из шахты (второй рецепт угля)
+building = "mine"
+time = 5.0
+tier = 2
+research = "coal_mining"
+outputs = { coal = 1 }
+
+[extract_iron]
+building = "iron_mine"
+time = 5.0
+tier = 2
+research = "iron_mining"
+outputs = { iron = 1 }
+
+[extract_copper]
+building = "copper_mine"
+time = 5.0
+tier = 2
+research = "copper_mining"
+outputs = { copper = 1 }
+
+[extract_lithium]
+building = "lithium_mine"
+time = 5.0
+tier = 2
+research = "lithium_mining"
+outputs = { lithium = 1 }

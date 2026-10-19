@@ -1,0 +1,53 @@
+# Каталог всех ресурсов (Т0 и производных).
+# Строки-имена не храним: только code (по умолчанию resource.<id>)
+# и перевод в lang/ru.toml. Тир в каталоге не хранится — вычисляется
+# из рецептов (Т0 = ресурсы без добывающих входов, добыча tier = 0).
+
+[wood]                  # Т0 — с начала игры
+category = "material"
+icon = "W"
+# base_price = 2        # зарезервировано (экономика уточняется)
+
+[stone]                 # Т0 — с начала игры
+category = "material"
+icon = "K"
+
+[sand]                  # Т0 — с начала игры
+category = "material"
+icon = "P"
+
+[coal]                  # Т1 (из дерева) и Т2 (из шахты)
+category = "material"
+icon = "C"
+
+[quartz]                # Т1 (из песка)
+category = "component"
+icon = "Q"
+
+[iron]                  # Т2 (шахта, исследование)
+category = "metal"
+icon = "F"
+
+[copper]                # Т2 (шахта, исследование)
+category = "metal"
+icon = "M"
+
+[lithium]               # Т2 (шахта, исследование)
+category = "metal"
+icon = "L"
+
+[battery]               # Т3 (уникальный рецепт города)
+category = "component"
+icon = "B"
+
+[chip]                  # Т3 (уникальный рецепт города)
+category = "component"
+icon = "X"
+
+[glass]                 # Т2 (уникальный рецепт города)
+category = "component"
+icon = "G"
+
+[ev]                    # Т4 (премиум)
+category = "premium"
+icon = "E"

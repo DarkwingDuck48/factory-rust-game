@@ -1,0 +1,26 @@
+# Роли городов-производителей. У роли ровно один рецепт — [<роль>.recipe].
+# code по умолчанию = role.<id>; имена — в lang/ru.toml.
+
+[battery_producer]      # аккумуляторы из лития
+icon = "B"
+
+[battery_producer.recipe]
+time = 10.0
+inputs  = { lithium = 1 }
+outputs = { battery = 1 }
+
+[chip_producer]         # микросхемы из кварца и меди
+icon = "C"
+
+[chip_producer.recipe]
+time = 10.0
+inputs  = { quartz = 1, copper = 1 }
+outputs = { chip = 1 }
+
+[glass_producer]        # стекло из песка и угля
+icon = "G"
+
+[glass_producer.recipe]
+time = 10.0
+inputs  = { sand = 2, coal = 1 }
+outputs = { glass = 1 }
