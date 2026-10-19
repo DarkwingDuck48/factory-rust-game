@@ -8,3 +8,6 @@ description = "Терминальный интерфейс игры Factory"
 factory-core.workspace = true
 ratatui = "0.30"
 crossterm = "0.29"
+anyhow = "1"
+log = "0.4"
+flexi_logger = "0.31"

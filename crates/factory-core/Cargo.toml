@@ -5,3 +5,7 @@ edition.workspace = true
 description = "Игровая логика Factory — не зависит от интерфейса"
 
 [dependencies]
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+rand = "0.8"
+thiserror = "2"
